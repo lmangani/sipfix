@@ -1,0 +1,46 @@
+{
+  "name": "sipfix",
+  "version": "1.0.1",
+  "description": "Oracle SIPFIX Decoder for Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lmangani/sipfix.git"
+  },
+  "keywords": [
+    "oracle",
+    "sipfix",
+    "encapsulation",
+    "encoder",
+    "decoder",
+    "packet",
+    "pcap",
+    "homer",
+    "sipcapture",
+    "pcapture",
+    "sip",
+    "voip",
+    "logs",
+    "acme",
+    "acme packet"
+  ],
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com> (http://sipcapture.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmangani/sipfix/issues"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "chai": "~3.0.0"
+  },
+  "dependencies": {
+    "restructure": "^0.5.4"
+  },
+  "homepage": "https://github.com/lmangani/sipfix#readme",
+  "directories": {
+    "test": "test"
+  }
+}

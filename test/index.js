@@ -1,0 +1,12 @@
+var should = require('chai').should(),
+    sipfix = require('../index'),
+    decode = sipfix.readHeader;
+
+describe('#unescape', function() {
+  it('HEP Decoder', function() {
+    var data = '\x00\x0A\x00\x30\x59\x41\x37\x38\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x20\x00\x01\x00\x02\x00\xFC\x77\x31\x00\x00\x00\x1E\x00\x00\x00\x00\x43\x5A\x07\x03\x00\x06\x65\x63\x7A\x37\x33\x30';
+    var buf = Buffer.from(data, 'utf8');
+    decode(buf).SetID.should.equal(256);
+  });
+
+});
