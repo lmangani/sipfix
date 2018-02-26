@@ -1,6 +1,6 @@
 {
   "name": "sipfix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Oracle SIPFIX Decoder for Node.JS",
   "main": "index.js",
   "scripts": {

@@ -30,7 +30,7 @@ var HandShake = new r.Struct({
   MaVer:	r.uint16,
   MiVer:	r.uint16,
   CFlags1:	r.uint16,
-  CFlags2:	r.uint16,
+  CFlags1:	r.uint16,
   SFlags:	r.uint16,
   Timeout:	r.uint16,
   SystemID:	r.uint32,
